@@ -147,7 +147,7 @@
   </div>
 </section>
 
-<section class="section bg-image overlay" style="background-image: url('images/hero_3.jpg');">
+<section class="section bg-image overlay" style="background-image: url('images/facility.jpg');">
   <div class="container">
     <div class="row justify-content-center text-center mb-5">
       <div class="col-md-7">
@@ -236,7 +236,7 @@
                 <p class="text-white text-opacity-7">Minuman dan camilan gratis untuk penghuni.</p>
               </div>
               <div class="facility-menu mb-5">
-                <h3 class="text-white"><i class="fas fa-security"></i> Keamanan</h3>
+                <h3 class="text-white"><i class="fa-solid fa-user-shield"></i> Keamanan</h3>
                 <p class="text-white text-opacity-7">Sistem keamanan 24 jam untuk kenyamanan dan keamanan penghuni.</p>
               </div>
               <div class="facility-menu mb-5">
@@ -250,7 +250,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="facility-menu mb-5">
-                <h3 class="text-white"><i class="fas fa-microwave"></i> Microwave</h3>
+                <h3 class="text-white"><i class="fa-solid fa-fire-burner"></i> Microwave</h3>
                 <p class="text-white text-opacity-7">Microwave untuk memasak makanan ringan.</p>
               </div>
               <div class="facility-menu mb-5">
@@ -272,7 +272,7 @@
                 <p class="text-white text-opacity-7">Pembayaran online untuk kemudahan penghuni.</p>
               </div>
               <div class="facility-menu mb-5">
-                <h3 class="text-white"><i class="fas fa-cctv"></i> CCTV</h3>
+                <h3 class="text-white"><i class="fas fa-camera"></i> CCTV</h3>
                 <p class="text-white text-opacity-7">CCTV untuk memantau aktivitas di area kost.</p>
               </div>
             </div>
@@ -295,7 +295,7 @@
 
         <div class="testimonial text-center slider-item">
           <div class="author-image mb-3">
-            <img src="images/person_1.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+            <img src="./images/Ahmad.png" alt="Image placeholder" class="rounded-circle mx-auto">
           </div>
           <blockquote>
             <p>&ldquo;Saya sangat senang tinggal di Kost Ayu. Kamar yang disediakan sangat bersih dan nyaman, fasilitasnya juga lengkap. Terlebih lagi, staffnya sangat ramah dan selalu siap membantu jika ada masalah. Saya akan merekomendasikan Kost Ayu pada teman-teman saya!&rdquo;</p>
@@ -307,19 +307,19 @@
 
         <div class="testimonial text-center slider-item">
           <div class="author-image mb-3">
-            <img src="images/person_2.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+            <img src="./images/budi.png" alt="Image placeholder" class="rounded-circle mx-auto">
           </div>
           <blockquote>
             <p>&ldquo;Kost Ayu memberikan pengalaman tinggal yang sangat menyenangkan bagi saya. Lokasinya strategis, dekat dengan kampus dan pusat kota. Fasilitas umumnya juga lengkap dan terawat dengan baik. Terima kasih Kost Ayu!&rdquo;</p>
           </blockquote>
           <p><b>Nama:</b> Budi</p>
           <p><b>Program Studi:</b> Manajemen</p>
-          <p><b>Universitas:</b> Universitas Negeri Yogyakarta</p>
+          <p><b>Universitas:</b> Universitas Ahmad Dahlan</p>
         </div>
         
         <div class="testimonial text-center slider-item">
           <div class="author-image mb-3">
-            <img src="images/person_3.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+            <img src="./images/deni.png" alt="Image placeholder" class="rounded-circle mx-auto">
           </div>
           <blockquote>
             <p>&ldquo;Saya sangat puas tinggal di Kost Ayu. Lingkungannya nyaman, staffnya ramah, dan fasilitasnya lengkap. Saya merasa seperti di rumah sendiri. Sangat direkomendasikan!&rdquo;</p>
@@ -331,7 +331,7 @@
         
         <div class="testimonial text-center slider-item">
           <div class="author-image mb-3">
-            <img src="images/person_4.jpg" alt="Image placeholder" class="rounded-circle mx-auto">
+            <img src="./images/Rudi.png" alt="Image placeholder" class="rounded-circle mx-auto">
           </div>
           <blockquote>
             <p>&ldquo;Kost Ayu benar-benar membuat saya merasa nyaman. Kamar tidur yang luas, fasilitas yang lengkap, dan staf yang profesional. Saya sangat senang tinggal di sini dan akan merekomendasikannya kepada teman-teman saya!&rdquo;</p>

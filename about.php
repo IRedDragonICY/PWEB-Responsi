@@ -3,242 +3,219 @@
 <?php include './php/head.php'; ?>
 <?php include './php/header-section.php'; ?>
 
-    <section class="site-hero inner-page overlay" style="background-image: url(images/hero_4.jpg)" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row site-hero-inner justify-content-center align-items-center">
-          <div class="col-md-10 text-center" data-aos="fade">
-            <h1 class="heading mb-3">About Us</h1>
-            <ul class="custom-breadcrumbs mb-4">
-              <li><a href="index.html">Home</a></li>
-              <li>&bullet;</li>
-              <li>About</li>
-            </ul>
-          </div>
+<section class="site-hero inner-page overlay" style="background-image: url(images/hero_4.jpg)"
+  data-stellar-background-ratio="0.5">
+  <div class="container">
+    <div class="row site-hero-inner justify-content-center align-items-center">
+      <div class="col-md-10 text-center" data-aos="fade">
+        <h1 class="heading mb-3">Tentang Kami</h1>
+        <ul class="custom-breadcrumbs mb-4">
+          <li><a href="index.php">Beranda</a></li>
+          <li>&bullet;</li>
+          <li>About</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <a class="mouse smoothscroll" href="#next">
+    <div class="mouse-icon">
+      <span class="mouse-wheel"></span>
+    </div>
+  </a>
+</section>
+<!-- END section -->
+
+<!-- section map -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-5 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+          <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+          <script>(function () {
+              var setting = { "query": "Universitas Ahmad Dahlan - Kampus 4, Jalan Ringroad Selatan, Kragilan, Tamanan, Bantul Regency, Special Region of Yogyakarta, Indonesia", "width": 800, "height": 600, "satellite": false, "zoom": 12, "placeId": "ChIJIxyuogFXei4Rnm3F3e7bcwE", "cid": "0x173dbeeddc56d9e", "coords": [-7.833234900000001, 110.3831212], "lang": "en", "queryString": "Universitas Ahmad Dahlan - Kampus 4, Jalan Ringroad Selatan, Kragilan, Tamanan, Bantul Regency, Special Region of Yogyakarta, Indonesia", "centerCoord": [-7.833234900000001, 110.3831212], "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "966119" };
+              var d = document;
+              var s = d.createElement('script');
+              s.src = 'https://1map.com/js/script-for-user.js?embed_id=966119';
+              s.async = true;
+              s.onload = function (e) {
+                window.OneMap.initMap(setting)
+              };
+              var to = d.getElementsByTagName('script')[0];
+              to.parentNode.insertBefore(s, to);
+            })();</script><a href="https://1map.com/map-embed">Lokasi Kost Ayu</a>
         </div>
       </div>
-
-      <a class="mouse smoothscroll" href="#next">
-        <div class="mouse-icon">
-          <span class="mouse-wheel"></span>
+      <div class="col-md-6 ml-auto col-lg-7" data-aos="fade-up" data-aos-delay="200">
+        <div class="text-left heading-wrap">
+          <h2>Lokasi Kost Ayu</h2>
         </div>
-      </a>
-    </section>
-    <!-- END section -->
-
-    <section class="py-5 bg-light" id="next">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" data-aos="fade-up">
-            <figure class="img-absolute">
-              <img src="images/food-1.jpg" alt="Free Website Template by Templateux" class="img-fluid">
-            </figure>
-            <img src="images/img_1.jpg" alt="Image" class="img-fluid rounded">
-          </div>
-          <div class="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
-            <h2 class="heading">Welcome!</h2>
-            <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p><a href="#" class="btn btn-primary text-white py-2 mr-3">Learn More</a> <span class="mr-3 font-family-serif"><em>or</em></span> <a href="https://vimeo.com/channels/staffpicks/93951774"  data-fancybox class="text-uppercase letter-spacing-1">See video</a></p>
-          </div>
-          
-        </div>
+        <p>Lokasi Kost Ayu terletak di Jalan Parangtritis KM 8,5 Bantul, Yogyakarta. Lokasi ini sangat strategis karena
+          berada di dekat pusat kota dan mudah dijangkau oleh transportasi umum. Selain itu, lokasi ini juga dekat
+          dengan berbagai fasilitas umum seperti pusat perbelanjaan, rumah sakit, dan tempat wisata. Dengan lokasi yang
+          strategis ini, Kost Ayu adalah pilihan yang tepat untuk Anda yang mencari tempat tinggal yang nyaman dan mudah
+          diakses.</p>
+        <p>Lokasi Kost Ayu sangat dekat dengan Universitas Ahmad Dahlan Kampus 4, Universitas Muhammadiyah Yogyakarta,
+          Universitas Negeri Yogyakarta, dan Universitas Islam Indonesia. Selain itu, Kost Ayu juga dekat dengan
+          Universitas Gadjah Mada, Universitas Atma Jaya Yogyakarta, Universitas Sanata Dharma, dan Universitas
+          Pembangunan Nasional Veteran Yogyakarta. Dengan lokasi yang strategis ini, Kost Ayu adalah pilihan yang tepat
+          untuk Anda yang mencari tempat tinggal yang nyaman dan mudah diakses.</p>
+        <p>Lokasi Kost Ayu sangat strategis karena berada di dekat pusat kota dan mudah dijangkau oleh transportasi
+          umum. Selain itu, lokasi ini juga dekat dengan berbagai fasilitas umum seperti pusat perbelanjaan, rumah
+          sakit, dan tempat wisata. Dengan lokasi yang strategis ini, Kost Ayu adalah pilihan yang tepat untuk Anda yang
+          mencari tempat tinggal yang nyaman dan mudah diakses.</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <div class="container section">
 
-      <div class="row justify-content-center text-center mb-5">
-        <div class="col-md-7 mb-5">
-          <h2 class="heading" data-aos="fade-up">Leadership</h2>
-        </div>
-      </div>
+<div class="container section">
 
-      <div class="row">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="block-2">
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_3.jpg);">
-                <div class="box">
-                  <h2>Will Peters</h2>
-                  <p>President</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_3.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Will Peters <span class="position">President</span></div>
-                </div>
-              </div>
+  <div class="row justify-content-center text-center mb-5">
+    <div class="col-md-7 mb-5">
+      <h2 class="heading" data-aos="fade-up">Keluarga Kost</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="block-2">
+        <div class="flipper">
+          <div class="front" style="background-image: url(./images/sigit.png);">
+            <div class="box">
+              <h2>Pak Sigit Rahari</h2>
+              <p>Suami Bu Ayu</p>
             </div>
-          </div> <!-- .flip-container -->
-        </div>
+          </div>
+          <div class="back">
+            <blockquote>
+              <p>&ldquo; Saya sebagai suami Bu Ayu sangat mendukung Bu Ayu untuk membuka Kost Ayu karena saya melihat
+                kecintaan dan kasih sayangnya kepada anak-anak.&rdquo;</p>
 
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-2"> <!-- .hover -->
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_1.jpg);">
-                <div class="box">
-                  <h2>Jane Williams</h2>
-                  <p>Business Manager</p>
-                </div>
+              &rdquo;</p>
+            </blockquote>
+            <div class="author d-flex">
+              <div class="image mr-3 align-self-center">
+                <img src="./images/sigit.png" alt="">
               </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_1.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Jane Williams <span class="position">Business Manager</span></div>
-                </div>
-              </div>
+              <div class="name align-self-center">Pak Sigit Rahari<span class="position">Suami Bu Ayu</span></div>
             </div>
-          </div> <!-- .flip-container -->
-        </div>
-
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="block-2">
-            <div class="flipper">
-              <div class="front" style="background-image: url(images/person_2.jpg);">
-                <div class="box">
-                  <h2>Jeffrey Neddery</h2>
-                  <p>Marketing Director</p>
-                </div>
-              </div>
-              <div class="back">
-                <!-- back content -->
-                <blockquote>
-                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="image mr-3 align-self-center">
-                    <img src="images/person_2.jpg" alt="">
-                  </div>
-                  <div class="name align-self-center">Jeffrey Neddery <span class="position">Marketing Director</span></div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- .flip-container -->
+          </div>
         </div>
       </div>
     </div>
-    <!-- END .block-2 -->
 
-    <section class="section slider-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-7">
-            <h2 class="heading" data-aos="fade-up">Photos</h2>
-            <p data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="home-slider major-caousel owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
-              <div class="slider-item">
-                <a href="images/slider-1.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-1.jpg" alt="Image placeholder" class="img-fluid"></a>
-              </div>
-              <div class="slider-item">
-                <a href="images/slider-2.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-2.jpg" alt="Image placeholder" class="img-fluid"></a>
-              </div>
-              <div class="slider-item">
-                <a href="images/slider-3.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-3.jpg" alt="Image placeholder" class="img-fluid"></a>
-              </div>
-              <div class="slider-item">
-                <a href="images/slider-4.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-4.jpg" alt="Image placeholder" class="img-fluid"></a>
-              </div>
-              <div class="slider-item">
-                <a href="images/slider-5.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-5.jpg" alt="Image placeholder" class="img-fluid"></a>
-              </div>
-              <div class="slider-item">
-                <a href="images/slider-6.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-6.jpg" alt="Image placeholder" class="img-fluid"></a>
-              </div>
-              <div class="slider-item">
-                <a href="images/slider-7.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/slider-7.jpg" alt="Image placeholder" class="img-fluid"></a>
-              </div>
+    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="block-2">
+        <div class="flipper">
+          <div class="front" style="background-image: url(./images/ayu.jpg);">
+            <div class="box">
+              <h2>Ibu Ayu Rahayu</h2>
+              <p>Pemilik Kost</p>
             </div>
-            <!-- END slider -->
           </div>
-        
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
+          <div class="back">
 
-    <div class="section">
-      <div class="container">
-
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-7 mb-5">
-            <h2 class="heading" data-aos="fade">History</h2>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="timeline-item" date-is='2019' data-aos="fade">
-              <h3>More Branches Worldwide</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            </div>
-            
-            <div class="timeline-item" date-is='2011' data-aos="fade">
-              <h3>Company Full Blast</h3>
-              <p>
-                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-              </p>
-            </div>
-            
-            <div class="timeline-item" date-is='2008' data-aos="fade">
-              <h3>The Birth of the Company</h3>
-              <p>
-                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-              </p>
+            <blockquote>
+              <p>&ldquo; Saya sebagai pemilik Kost Ayu sangat senang karena anak-anak yang tinggal di Kost Ayu seperti
+                anak-anak saya sendiri. Saya sangat senang melihat mereka tumbuh dan berkembang bersama saya.&rdquo;</p>
+            </blockquote>
+            <div class="author d-flex">
+              <div class="image mr-3 align-self-center">
+                <img src="./images/ayu.jpg" alt="">
+              </div>
+              <div class="name align-self-center">Ibu Ayu Rahayu <span class="position">Pemilik Kost</span></div>
             </div>
           </div>
         </div>
-        
-
       </div>
     </div>
 
-    
-    
-    <section class="section bg-image overlay" style="background-image: url('images/hero_4.jpg');">
-        <div class="container" >
-          <div class="row align-items-center">
-            <div class="col-12 col-md-6 text-center mb-4 mb-md-0 text-md-left" data-aos="fade-up">
-              <h2 class="text-white font-weight-bold">A Best Place To Stay. Reserve Now!</h2>
+    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="block-2">
+        <div class="flipper">
+          <div class="front" style="background-image: url(./images/bocil.jpg);">
+            <div class="box">
+              <h2>Dek Ocil</h2>
+              <p>Anak Ibu Ayu</p>
             </div>
-            <div class="col-12 col-md-6 text-center text-md-right" data-aos="fade-up" data-aos-delay="200">
-              <a href="reservation.html" class="btn btn-outline-white-primary py-3 text-white px-5">Reserve Now</a>
+          </div>
+          <div class="back">
+            <blockquote>
+              <p>&ldquo; Kakak-kakak di Kost Ayu sangat baik dan perhatian terhadap saya. Mereka selalu membantu saya
+                dalam belajar dan bermain. Saya sangat senang tinggal di Kost Ayu.&rdquo;</p>
+            </blockquote>
+            <div class="author d-flex">
+              <div class="image mr-3 align-self-center">
+                <img src="./images/bocil.jpg" alt="">
+              </div>
+              <div class="name align-self-center">Dek Ocil <span class="position">Anak Ibu Ayu</span>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <?php include './php/cta.php'; ?>
-    <?php include './php/footer.php'; ?>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script> 
-    <script src="js/jquery.timepicker.min.js"></script> 
+<div class="section">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-md-7 mb-5">
+        <h2 class="heading" data-aos="fade">Sejarah Berdirinya Kost Ayu</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="timeline-item" date-is='2017' data-aos="fade">
+          <h3>Visi yang Membangun</h3>
+          <p>Pada tahun ini, Kost Ayu muncul sebagai sebuah konsep yang menggugah jiwa. Diprakarsai oleh sekelompok
+            individu yang memiliki pandangan jauh ke depan, mereka memiliki tekad yang kuat untuk menciptakan lingkungan
+            yang mendukung perkembangan akademik, pertumbuhan pribadi, dan kehidupan sosial para mahasiswa. Dengan
+            fondasi visi yang kokoh, Kost Ayu pun didirikan.</p>
+          <p>Kost Ayu pun didirikan.</p>
+        </div>
 
-    
+        <div class="timeline-item" date-is='2018' data-aos="fade">
+          <h3> Transformasi Inspiratif </h3>
+            <p>
+              Melalui komitmen yang tak tergoyahkan terhadap keunggulan, Kost Ayu berhasil mengalami transformasi yang
+              menginspirasi. Dengan pendekatan yang progresif dan inovatif, Kost Ayu tidak hanya menyediakan fasilitas
+              kost berkualitas tinggi, tetapi juga membangun ekosistem yang mendukung pertumbuhan holistik mahasiswa.
+              Melalui kolaborasi dengan institusi pendidikan, mentor yang berpengalaman, serta program pengembangan diri
+              yang komprehensif, Kost Ayu menjadi tempat yang memberdayakan mahasiswa untuk mencapai potensi penuh
+              mereka.
+            </p>
+        </div>
+        <div class="timeline-item" date-is='2023-Sekarang' data-aos="fade">
+          <h3>Prestasi yang Menguatkan</h3>
+          <p>
+            Dengan komitmen yang kuat untuk memberikan pengalaman terbaik bagi mahasiswa, Kost Ayu berhasil memperoleh
+            pengakuan dari berbagai pihak. Dengan berbagai penghargaan yang diterima, Kost Ayu terus berinovasi untuk
+            memberikan pengalaman terbaik bagi mahasiswa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <script src="js/main.js"></script>
-  </body>
+
+<?php include './php/cta.php'; ?>
+<?php include './php/footer.php'; ?>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
 </html>
