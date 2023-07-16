@@ -12,7 +12,7 @@
         <ul class="custom-breadcrumbs mb-4">
           <li><a href="index.php">Beranda</a></li>
           <li>&bullet;</li>
-          <li>About</li>
+          <li>Tentang</li>
         </ul>
       </div>
     </div>
