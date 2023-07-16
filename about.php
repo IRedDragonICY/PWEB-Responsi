@@ -3,7 +3,7 @@
 <?php include './php/head.php'; ?>
 <?php include './php/header-section.php'; ?>
 
-<section class="site-hero inner-page overlay" style="background-image: url(images/hero_4.jpg)"
+<section class="site-hero inner-page overlay" style="background-image: url(./images/hero.jpg)"
   data-stellar-background-ratio="0.5">
   <div class="container">
     <div class="row site-hero-inner justify-content-center align-items-center">
@@ -24,9 +24,7 @@
     </div>
   </a>
 </section>
-<!-- END section -->
 
-<!-- section map -->
 <section class="section">
   <div class="container">
     <div class="row">
@@ -92,7 +90,6 @@
             <blockquote>
               <p>&ldquo; Saya sebagai suami Bu Ayu sangat mendukung Bu Ayu untuk membuka Kost Ayu karena saya melihat
                 kecintaan dan kasih sayangnya kepada anak-anak.&rdquo;</p>
-
               &rdquo;</p>
             </blockquote>
             <div class="author d-flex">

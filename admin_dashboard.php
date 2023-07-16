@@ -10,31 +10,24 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <i class="fas fa-home fa-2x"></i>
-        <a class="navbar-brand" href="#"> Admin Kost Ayu</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" onclick="logout()">Logout</a>
-                    <script>
-                        function logout() {
-                            // menghapus session
-                            localStorage.removeItem("username");
-                            localStorage.removeItem("password");
-                            localStorage.setItem("loggedIn", "false");
-                            window.location.href = "./admin.php";
-                        }
-                    </script>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <i class="fas fa-home fa-2x"></i>
+  <a class="navbar-brand" href="#">Admin Kost Ayu</a>
+  
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" onclick="logout()">Logout</a>
+    </li>
+  </ul>
+</nav>
+    <script>
+        function logout() {
+            localStorage.removeItem("username");
+            localStorage.removeItem("password");
+            localStorage.setItem("loggedIn", "false");
+            window.location.href = "./admin.php";
+        }
+    </script>
     <div class="container">
         <h1 class="mt-4">Selamat datang di Dashboard Kost Ayu</h1>
         <div class="row">
@@ -50,7 +43,7 @@
 
                             foreach ($reservationLines as $reservationLine) {
                                 if (!empty($reservationLine)) {
-                                    $reservationData = explode(',', $reservationLine);
+                                    $reservationData = explode('|', $reservationLine);
                                     $namaPemesan = trim($reservationData[0]);
                                     $noHP = trim($reservationData[1]);
                                     $email = trim($reservationData[2]);
@@ -111,21 +104,7 @@
                                         encode: true
                                     })
                                         .done(function (data) {
-                                            console.log("berhasil");
-                                            // Update the package list
-                                            $.get('./db/data-kamar.txt', function (data) {
-                                                var packageLines = data.split("\n");
-                                                var packageList = $('#package-list');
-                                                packageList.empty();
-                                                packageLines.forEach(function (packageLine) {
-                                                    if (packageLine.trim() !== '') {
-                                                        var parts = packageLine.split(':');
-                                                        var packageType = parts[0].trim();
-                                                        var packageCount = parts[1].trim();
-                                                        packageList.append('<li class="list-group-item">' + packageType + ': ' + packageCount + ' kamar </li>');
-                                                    }
-                                                });
-                                            });
+                                            location.reload();
                                         });
                                 });
                             });
@@ -160,29 +139,7 @@
             </div>
         </div>
     </div>
-    <script>
-        $(document).ready(function () {
-            $('form').submit(function (event) {
-                event.preventDefault();
 
-                var formData = {
-                    'packageType': $('select[name=packageType]').val(),
-                    'packageCount': $('input[name=packageCount]').val()
-                };
-
-                $.ajax({
-                    type: 'POST',
-                    url: './php/update-package.php',
-                    data: formData,
-                    dataType: 'json',
-                    encode: true
-                })
-                    .done(function (data) {
-                        console.log("berhasil");
-                    });
-            });
-        });
-    </script>
 
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
     <script src="js/popper.min.js"></script>

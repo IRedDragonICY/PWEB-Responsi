@@ -21,6 +21,7 @@ if ($file) {
   fseek($file, 0);
   fwrite($file, $newData);
   fclose($file);
+  echo json_encode(['success' => true]);
 }
 
 ?>

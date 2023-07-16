@@ -5,7 +5,7 @@
   <?php include './php/head.php'; ?>
   <?php include './php/header-section.php'; ?>
 
-  <section class="site-hero inner-page overlay" style="background-image: url(images/hero_4.jpg)"
+  <section class="site-hero inner-page overlay" style="background-image: url(./images/hero.jpg)"
     data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row site-hero-inner justify-content-center align-items-center">
@@ -41,7 +41,7 @@
       <div class="col-md-6 col-lg-4" data-aos="fade-up">
         <a href="#" class="room">
           <figure class="img-wrap">
-            <img src="./images/img_1.jpg" alt="Kost murah" class="img-fluid mb-3">
+            <img src="./images/sinom.jpg" alt="Kost murah" class="img-fluid mb-3">
           </figure>
           <div class="p-3 text-center room-info">
             <h2>Paket Sinom</h2>
@@ -61,7 +61,7 @@
       <div class="col-md-6 col-lg-4" data-aos="fade-up">
         <a href="#" class="room">
           <figure class="img-wrap">
-            <img src="./images/img_2.jpg" alt="Kost murah" class="img-fluid mb-3">
+            <img src="./images/kinanthi.jpg" alt="Kost murah" class="img-fluid mb-3">
           </figure>
           <div class="p-3 text-center room-info">
             <h2>Paket Kinanthi</h2>
@@ -82,7 +82,7 @@
       <div class="col-md-6 col-lg-4" data-aos="fade-up">
         <a href="#" class="room">
           <figure class="img-wrap">
-            <img src="./images/img_3.jpg" alt="Kost murah" class="img-fluid mb-3">
+            <img src="./images/kebak.jpg" alt="Kost murah" class="img-fluid mb-3">
           </figure>
           <div class="p-3 text-center room-info">
             <h2>Paket Kebak</h2>
@@ -112,9 +112,8 @@
           <p data-aos="fade">Kami menawarkan berbagai macam paket kost yang dapat disesuaikan dengan kebutuhan Anda.</p>
         </div>
       </div>
-
       <div class="site-block-half d-block d-lg-flex bg-white" data-aos="fade" data-aos-delay="100">
-        <a href="#" class="image d-block bg-image-2" style="background-image: url('images/img_1.jpg');"></a>
+        <a href="#" class="image d-block bg-image-2" style="background-image: url('./images/kinanthi.jpg');"></a>
         <div class="text">
           <span class="d-block mb-4"><span class="display-4 text-primary">RP12 JUTA</span> <span
               class="text-uppercase letter-spacing-2">/ per tahun</span> </span>
@@ -125,7 +124,7 @@
         </div>
       </div>
       <div class="site-block-half d-block d-lg-flex bg-white" data-aos="fade" data-aos-delay="200">
-        <a href="#" class="image d-block bg-image-2 order-2" style="background-image: url('images/img_2.jpg');"></a>
+        <a href="#" class="image d-block bg-image-2 order-2" style="background-image: url('./images/kebak.jpg');"></a>
         <div class="text order-1">
           <span class="d-block mb-4"><span class="display-4 text-primary">RP14 JUTA</span> <span
               class="text-uppercase letter-spacing-2">/ per tahun</span> </span>

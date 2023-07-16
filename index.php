@@ -4,7 +4,7 @@
 <?php include './php/header-section.php'; ?>
 
 
-<section class="site-hero overlay" style="background-image: url(images/hero_4.jpg)" data-stellar-background-ratio="0.5">
+<section class="site-hero overlay" style="background-image: url(./images/hero.jpg)" data-stellar-background-ratio="0.5">
   <div class="container">
     <div class="row site-hero-inner justify-content-center align-items-center">
       <div class="col-md-10 text-center" data-aos="fade-up">
@@ -21,8 +21,6 @@
     </div>
   </a>
 </section>
-<!-- END section -->
-
 <?php include './php/check-room-section.php'; ?>
 
 <section class="py-5 bg-light">
@@ -39,7 +37,7 @@
             <p class="text-sm d-none d-md-block" style="color: white; font-weight: 1200;">Pemilik Kost Ayu</p>
           </div>
         </figure>
-        <img src="images/img_1.jpg" alt="Image" class="img-fluid rounded">
+        <img src="images/sinom.jpg" alt="Image" class="img-fluid rounded">
       </div>
       <div class="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
         <h2 class="heading">Selamat Datang!</h2>
@@ -63,7 +61,7 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-lg-4" data-aos="fade-up"> <a href="#" class="room">
-          <figure class="img-wrap"> <img src="./images/img_1.jpg" alt="Kost murah" class="img-fluid mb-3">
+          <figure class="img-wrap"> <img src="./images/sinom.jpg" alt="Kost murah" class="img-fluid mb-3">
           </figure>
           <div class="p-3 text-center room-info">
             <h2>Paket Sinom</h2> <span class="text-uppercase letter-spacing-1">Rp800rb / bulan</span>
@@ -72,7 +70,7 @@
       <div class="col-md-6 col-lg-4" data-aos="fade-up">
         <a href="#" class="room">
           <figure class="img-wrap">
-            <img src="./images/img_2.jpg" alt="Kost murah" class="img-fluid mb-3">
+            <img src="./images/kinanthi.jpg" alt="Kost murah" class="img-fluid mb-3">
           </figure>
           <div class="p-3 text-center room-info">
             <h2>Paket Kinanthi</h2>
@@ -84,7 +82,7 @@
       <div class="col-md-6 col-lg-4" data-aos="fade-up">
         <a href="#" class="room">
           <figure class="img-wrap">
-            <img src="./images/img_3.jpg" alt="Kost murah" class="img-fluid mb-3">
+            <img src="./images/kebak.jpg" alt="Kost murah" class="img-fluid mb-3">
           </figure>
           <div class="p-3 text-center room-info">
             <h2>Paket Kebak</h2>
@@ -258,7 +256,7 @@
                 <p class="text-white text-opacity-7">Shower untuk pasca-olahraga atau mandi pagi.</p>
               </div>
               <div class="facility-menu mb-5">
-                <h3 class="text-white"><i class="fas fa-laundry"></i> Laundry</h3>
+                <h3 class="text-white"><i class="fa-solid fa-jug-detergent"></i> Laundry</h3>
                 <p class="text-white text-opacity-7">Mesin cuci dan area jemur untuk mencuci pakaian.</p>
               </div>
             </div>
@@ -307,7 +305,7 @@
 
         <div class="testimonial text-center slider-item">
           <div class="author-image mb-3">
-            <img src="./images/budi.png" alt="Image placeholder" class="rounded-circle mx-auto">
+            <img src="./images/Budi.png" alt="Image placeholder" class="rounded-circle mx-auto">
           </div>
           <blockquote>
             <p>&ldquo;Kost Ayu memberikan pengalaman tinggal yang sangat menyenangkan bagi saya. Lokasinya strategis, dekat dengan kampus dan pusat kota. Fasilitas umumnya juga lengkap dan terawat dengan baik. Terima kasih Kost Ayu!&rdquo;</p>
@@ -319,7 +317,7 @@
         
         <div class="testimonial text-center slider-item">
           <div class="author-image mb-3">
-            <img src="./images/deni.png" alt="Image placeholder" class="rounded-circle mx-auto">
+            <img src="./images/Deni.png" alt="Image placeholder" class="rounded-circle mx-auto">
           </div>
           <blockquote>
             <p>&ldquo;Saya sangat puas tinggal di Kost Ayu. Lingkungannya nyaman, staffnya ramah, dan fasilitasnya lengkap. Saya merasa seperti di rumah sendiri. Sangat direkomendasikan!&rdquo;</p>

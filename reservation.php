@@ -3,7 +3,7 @@
 <?php include './php/head.php'; ?>
 <?php include './php/header-section.php'; ?>
 
-<section class="site-hero inner-page overlay" style="background-image: url(images/hero_4.jpg)"
+<section class="site-hero inner-page overlay" style="background-image: url(./images/hero.jpg)"
   data-stellar-background-ratio="0.5">
   <div class="container">
     <div class="row site-hero-inner justify-content-center align-items-center">
