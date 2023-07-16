@@ -120,7 +120,7 @@
           <h2 class="mb-4">Paket Kinanti</h2>
           <p> Dengan diskon 10% untuk pemesanan 1 tahun, Anda dapat menikmati paket kost Kinanti dengan fasilitas
             lengkap dan harga yang terjangkau.</p>
-          <p><a href="#" class="btn btn-primary text-white">Book Now</a></p>
+          <p><a href="./reservation.php" class="btn btn-primary text-white">Book Now</a></p>
         </div>
       </div>
       <div class="site-block-half d-block d-lg-flex bg-white" data-aos="fade" data-aos-delay="200">
@@ -131,7 +131,7 @@
           <h2 class="mb-4">Paket Kebak</h2>
           <p> Dengan diskon 10% dan kualitas terbaik, Anda dapat menikmati paket kost Kebak dengan fasilitas lengkap
             dan harga yang terjangkau.</p>
-          <p><a href="#" class="btn btn-primary text-white">Book Now</a></p>
+          <p><a href="./reservation.php" class="btn btn-primary text-white">Book Now</a></p>
         </div>
       </div>
 
